@@ -7,7 +7,7 @@ def fib(n, x, y):
             z=x+y
             #print it for us dumb humans so we know it's happening
             print(z)
-            #look for complete modularity
+            #look for complete modularity given even #s
             if z%2==0:
                 print("Even fibonacci number found.")
                 #add the even numbers to the array
