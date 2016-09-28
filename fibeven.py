@@ -12,7 +12,7 @@ def fib(n, x, y):
                 print("Even fibonacci number found.")
                 #add the even numbers to the array
                 even.append(z)
-            #add come fibonnaci logic
+            #add some fibonnaci logic
             x=y
             y=z
     #get that sum
