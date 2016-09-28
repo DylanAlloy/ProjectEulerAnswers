@@ -5,7 +5,6 @@ def factorize(x):
             print(str(i)+" is a factor!")
             is_prime(i)
         i+=1
-        
     print("Finished!")
     
 from math import sqrt
