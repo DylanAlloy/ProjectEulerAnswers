@@ -14,9 +14,7 @@ def is_prime(i):
         return True
     if (i < 2) or (i % 2 == 0):
         return False
-<<<<<<< HEAD
-=======
-    
+   
     #this part is a bit complicated. we're doing mod on numbers we already know are
     #factors in order to find out if they are prime ones. exception being 2 and 
     #we're using the square root of the number we're proving because this saves memory but also prevents 
@@ -27,7 +25,6 @@ def is_prime(i):
     #example: sqrt(14)=3.74 but has a prime factor of 7 (7^2=14) which is larger than the sqrt. this however is ruled
     #out by the first chunk, just wanted to be mathematically rigorous in the comment
     #a.k.a. the sieve of eratosthenes
->>>>>>> origin/master
     print(all(i%n for n in range(3,int(sqrt(i))+1,2)))
 
 factorize(600851475143)
