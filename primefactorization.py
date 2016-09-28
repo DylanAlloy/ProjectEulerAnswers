@@ -14,6 +14,6 @@ def is_prime(i):
         return True
     if (i < 2) or (i % 2 == 0):
         return False
-    print(all(i % n for n in range(3, int(sqrt(i)) + 1, 2)))
+    print(all(i%n for n in range(3,int(sqrt(i))+1,2)))
 
 factorize(600851475143)
